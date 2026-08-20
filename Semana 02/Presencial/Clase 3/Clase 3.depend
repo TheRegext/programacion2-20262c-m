@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1787235058 source:c:\users\maxi_\desktop\2026 2c\clase 3\clsfecha.cpp
+	<iostream>
+	"clsFecha.h"
+
+1787235058 c:\users\maxi_\desktop\2026 2c\clase 3\clsfecha.h
+
+1787234405 source:c:\users\maxi_\desktop\2026 2c\clase 3\main.cpp
+	<iostream>
+	<cstring>
+	"clsFecha.h"
+	"clsEjemplo.h"
+
+1787231001 source:c:\users\maxi_\desktop\2026 2c\clase 3\clsejemplo.cpp
+	<iostream>
+	<cstring>
+	"clsEjemplo.h"
+
+1787231001 c:\users\maxi_\desktop\2026 2c\clase 3\clsejemplo.h
+
