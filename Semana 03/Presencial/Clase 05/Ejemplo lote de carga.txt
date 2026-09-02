@@ -1,0 +1,700 @@
+10001
+Juan Manuel Pereyra
+30123456
+15
+2
+1998
+Avellaneda 1234
+10002
+Mariana Soledad Rojas
+31234567
+8
+7
+1999
+San Martin 567
+10003
+Lucas Gabriel Fernandez
+32345678
+21
+11
+2000
+Belgrano 890
+10004
+Camila Antonella Sosa
+33456789
+3
+4
+2001
+Rivadavia 1456
+10005
+Nicolas Alejandro Torres
+34567890
+27
+9
+1997
+Mitre 234
+10006
+Valentina Sofia Acosta
+35678901
+12
+1
+2002
+Moreno 789
+10007
+Matias Ezequiel Benitez
+36789012
+6
+6
+1998
+Italia 321
+10008
+Julieta Carolina Medina
+37890123
+19
+12
+1999
+Libertad 654
+10009
+Facundo Nicolas Herrera
+38901234
+25
+3
+2000
+Sarmiento 987
+10010
+Agustina Beatriz Molina
+39012345
+14
+8
+2001
+Urquiza 432
+10011
+Tomas Ignacio Castro
+30111222
+9
+5
+1997
+Independencia 765
+10012
+Sofia Victoria Navarro
+31222333
+22
+10
+1998
+Pueyrredon 246
+10013
+Franco Emiliano Gimenez
+32333444
+1
+2
+1999
+Colon 1357
+10014
+Martina Lucia Cabrera
+33444555
+17
+7
+2000
+Saavedra 468
+10015
+Santiago Adrian Dominguez
+34555666
+29
+11
+2001
+French 579
+10016
+Paula Daniela Vega
+35666777
+5
+4
+1997
+Alberdi 680
+10017
+Federico Martin Arias
+36777888
+13
+9
+1998
+Laprida 791
+10018
+Carolina Elena Ruiz
+37888999
+24
+1
+1999
+Junin 802
+10019
+Sebastian Raul Ortiz
+38999000
+7
+6
+2000
+Maipu 913
+10020
+Florencia Ines Romero
+39000111
+18
+12
+2001
+Peru 1024
+10021
+Agustin Mariano Silva
+30112233
+26
+3
+1997
+Bolivar 1135
+10022
+Luciana Pilar Correa
+31223344
+11
+8
+1998
+Alsina 1246
+10023
+Maximiliano David Luna
+32334455
+2
+5
+1999
+Viamonte 1357
+10024
+Daniela Rocio Farias
+33445566
+16
+10
+2000
+Tucuman 1468
+10025
+Gonzalo Javier Miranda
+34556677
+28
+2
+2001
+Paraguay 1579
+10026
+Micaela Noelia Ponce
+35667788
+4
+7
+1997
+Honduras 1680
+10027
+Leandro Martin Salvatierra
+36778899
+20
+11
+1998
+Costa Rica 1791
+10028
+Victoria Abril Ferreyra
+37889900
+10
+4
+1999
+Ecuador 1802
+10029
+Rodrigo Esteban Duarte
+38990011
+23
+9
+2000
+Mexico 1913
+10030
+Milagros Celeste Ibarra
+39001122
+30
+1
+2001
+Chile 2024
+10031
+Pablo Andres Godoy
+30123344
+6
+6
+1997
+Peron 2135
+10032
+Natalia Belen Vargas
+31234455
+15
+12
+1998
+Dorrego 2246
+10033
+Martin Alejandro Suarez
+32345566
+27
+3
+1999
+Lamadrid 2357
+10034
+Cecilia Laura Campos
+33456677
+9
+8
+2000
+Caseros 2468
+10035
+Diego Hernan Aguirre
+34567788
+21
+5
+2001
+Lavalle 2579
+10036
+Romina Giselle Paz
+35678899
+3
+10
+1997
+Yatay 2680
+10037
+Joaquin Nicolas Bravo
+36789900
+18
+2
+1998
+Anchorena 2791
+10038
+Antonella Maria Peralta
+37890011
+12
+7
+1999
+Bulnes 2802
+10039
+Enzo Valentino Roldan
+38901122
+25
+11
+2000
+Medrano 2913
+10040
+Bianca Florencia Vidal
+39012233
+7
+4
+2001
+Gascón 3024
+10041
+Gustavo Ariel Mansilla
+30134455
+19
+9
+1997
+Aguirre 3135
+10042
+Elena Marisol Franco
+31245566
+1
+1
+1998
+Humboldt 3246
+10043
+Kevin Dario Villalba
+32356677
+14
+6
+1999
+Fitz Roy 3357
+10044
+Daniela Julieta Leiva
+33467788
+26
+12
+2000
+Arévalo 3468
+10045
+Cristian Omar Cardozo
+34578899
+8
+3
+2001
+Bonpland 3579
+10046
+Agustina Malena Cabrera
+35689900
+22
+8
+1997
+Gorriti 3680
+10047
+Hernan Augusto Molina
+36790011
+5
+5
+1998
+Uriarte 3791
+10048
+Florencia Abril Nieto
+37801122
+17
+10
+1999
+Godoy Cruz 3802
+10049
+Alejandro Tomas Saez
+38912233
+29
+2
+2000
+Armenia 3913
+10050
+Carla Jimena Escobar
+39023344
+11
+7
+2001
+El Salvador 4024
+10051
+Ramon Eduardo Bustos
+30145566
+24
+11
+1997
+Acevedo 4135
+10052
+Marina Solange Miranda
+31256677
+6
+4
+1998
+Borges 4246
+10053
+Ignacio Valentin Mendez
+32367788
+20
+9
+1999
+Cramer 4357
+10054
+Clara Josefina Robles
+33478899
+13
+1
+2000
+Congreso 4468
+10055
+Benjamin Agustin Vera
+34589900
+28
+6
+2001
+Monroe 4579
+10056
+Laura Milena Quiroga
+35690011
+9
+12
+1997
+Juramento 4680
+10057
+Ezequiel Roman Navarro
+36701122
+16
+3
+1998
+Mendoza 4791
+10058
+Ana Paula Benitez
+37812233
+2
+8
+1999
+Lugones 4802
+10059
+Mariano Jose Velez
+38923344
+23
+5
+2000
+Crisologo Larralde 4913
+10060
+Florencia Nadia Rios
+39034455
+30
+10
+2001
+Deheza 5024
+10061
+Gaston Luciano Acuña
+30156677
+7
+2
+1997
+Nunez 5135
+10062
+Sabrina Veronica Molina
+31267788
+18
+7
+1998
+Manzanares 5246
+10063
+Esteban Mauricio Silva
+32378899
+4
+11
+1999
+Olazabal 5357
+10064
+Celeste Agustina Correa
+33489900
+15
+4
+2000
+Iberá 5468
+10065
+Marcos Ezequiel Romero
+34590011
+27
+9
+2001
+Monroe 5579
+10066
+Valeria Soledad Acosta
+35601122
+10
+1
+1997
+Quesada 5680
+10067
+Damian Federico Torres
+36712233
+21
+6
+1998
+Tamborini 5791
+10068
+Carolina Beatriz Sosa
+37823344
+3
+12
+1999
+Moldes 5802
+10069
+Lucas Matias Pereyra
+38934455
+14
+3
+2000
+Cabildo 5913
+10070
+Agustina Rocio Fernandez
+39045566
+26
+8
+2001
+Juramento 6024
+10071
+Federico Javier Rojas
+30167788
+8
+5
+1997
+Congreso 6135
+10072
+Melina Antonella Castro
+31278899
+19
+10
+1998
+Larralde 6246
+10073
+Bruno Alejandro Medina
+32389900
+1
+2
+1999
+Superi 6357
+10074
+Victoria Sofia Herrera
+33490011
+12
+7
+2000
+Vuelta de Obligado 6468
+10075
+Martin Nicolas Ortiz
+34501122
+24
+11
+2001
+Moldes 6579
+10076
+Paula Carolina Gimenez
+35612233
+5
+4
+1997
+Cuba 6680
+10077
+Santiago Gabriel Ruiz
+36723344
+17
+9
+1998
+Arcos 6791
+10078
+Mariana Lucia Dominguez
+37834455
+29
+1
+1999
+Conde 6802
+10079
+Tomas Sebastian Vega
+38945566
+11
+6
+2000
+Freire 6913
+10080
+Julieta Elena Navarro
+39056677
+22
+12
+2001
+Zapiola 7024
+10081
+Franco Adrian Luna
+30178899
+6
+3
+1997
+Miller 7135
+10082
+Camila Victoria Arias
+31289900
+15
+8
+1998
+Amenabar 7246
+10083
+Nicolas Emiliano Duarte
+32390011
+27
+5
+1999
+Naon 7357
+10084
+Sofia Carolina Ponce
+33401122
+9
+10
+2000
+Tronador 7468
+10085
+Facundo Javier Salvatierra
+34512233
+20
+2
+2001
+Andonaegui 7579
+10086
+Martina Beatriz Ferreyra
+35623344
+4
+7
+1997
+Monroe 7680
+10087
+Leandro Nicolas Godoy
+36734455
+18
+11
+1998
+Constituyentes 7791
+10088
+Valentina Rocio Ibarra
+37845566
+13
+4
+1999
+Cullen 7802
+10089
+Gonzalo Martin Farias
+38956677
+25
+9
+2000
+Ruiz Huidobro 7913
+10090
+Micaela Soledad Miranda
+39067788
+7
+1
+2001
+Manuel Ugarte 8024
+10091
+Pablo Esteban Vargas
+30189900
+16
+6
+1997
+Besares 8135
+10092
+Luciana Daniela Campos
+31290011
+28
+12
+1998
+Vilela 8246
+10093
+Maximiliano Ariel Aguirre
+32301122
+10
+3
+1999
+Deheza 8357
+10094
+Cecilia Mariana Paz
+33412233
+21
+8
+2000
+Nuñez 8468
+10095
+Rodrigo Alejandro Bravo
+34523344
+3
+5
+2001
+Ramallo 8579
+10096
+Bianca Soledad Peralta
+35634455
+14
+10
+1997
+Plaza 8680
+10097
+Diego Martin Roldan
+36745566
+26
+2
+1998
+Guayra 8791
+10098
+Milagros Carolina Vidal
+37856677
+8
+7
+1999
+Vuelta de Obligado 8802
+10099
+Joaquin Gabriel Mansilla
+38967788
+19
+11
+2000
+Superi 8913
+10100
+Elena Victoria Franco
+39078899
+30
+4
+2001
+Manzanares 9024

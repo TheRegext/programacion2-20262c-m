@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1787840547 source:c:\users\profesor\desktop\clase 03\main.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1787840621 source:c:\users\profesor\desktop\clase 03\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1787840547 c:\users\profesor\desktop\clase 03\clsalumno.h
+	"clsFecha.h"
+	"clsDomicilio.h"
+
+1787833333 source:c:\users\profesor\desktop\clase 03\clsfecha.cpp
+	<iostream>
+	"clsFecha.h"
+
+1787832723 c:\users\profesor\desktop\clase 03\clsfecha.h
+
+1787840402 source:c:\users\profesor\desktop\clase 03\clsdomicilio.cpp
+	<iostream>
+	"clsDomicilio.h"
+
+1787840252 c:\users\profesor\desktop\clase 03\clsdomicilio.h
+
