@@ -1,0 +1,23 @@
+#ifndef CLSFECHA_H_INCLUDED
+#define CLSFECHA_H_INCLUDED
+
+class Fecha{
+    private:
+        int dia;
+        int mes;
+        int anio;
+    public:
+        Fecha(int d=5, int m=1, int a=1900);
+        void setDia(int);
+        void setMes(int);
+        void setAnio(int);
+        int getDia();
+        int getMes();
+        int getAnio();
+        void Cargar();
+        void Mostrar();
+        bool operator==(Fecha fec);
+        ~Fecha();
+};
+
+#endif // CLSFECHA_H_INCLUDED

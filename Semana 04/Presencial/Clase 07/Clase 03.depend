@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1787840547 source:c:\users\profesor\desktop\clase 03\main.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1787840621 source:c:\users\profesor\desktop\clase 03\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1787840547 c:\users\profesor\desktop\clase 03\clsalumno.h
+	"clsFecha.h"
+	"clsDomicilio.h"
+
+1787833333 source:c:\users\profesor\desktop\clase 03\clsfecha.cpp
+	<iostream>
+	"clsFecha.h"
+
+1787832723 c:\users\profesor\desktop\clase 03\clsfecha.h
+
+1787840402 source:c:\users\profesor\desktop\clase 03\clsdomicilio.cpp
+	<iostream>
+	"clsDomicilio.h"
+
+1787840252 c:\users\profesor\desktop\clase 03\clsdomicilio.h
+
+1788348759 source:c:\users\profesor\desktop\clase 06\cargarcadena.cpp
+	<iostream>
+	<cstring>
+
+1788443996 source:c:\users\profesor\desktop\clase 06\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1788443731 c:\users\profesor\desktop\clase 06\clsalumno.h
+	"clsFecha.h"
+	"clsDomicilio.h"
+	"clsPersona.h"
+
+1788443996 c:\users\profesor\desktop\clase 06\clsfecha.h
+
+1788348759 c:\users\profesor\desktop\clase 06\clsdomicilio.h
+
+1788348759 source:c:\users\profesor\desktop\clase 06\clsdomicilio.cpp
+	<iostream>
+	"clsDomicilio.h"
+	"cargarCadena.h"
+
+1788348759 c:\users\profesor\desktop\clase 06\cargarcadena.h
+
+1788444319 source:c:\users\profesor\desktop\clase 06\clsfecha.cpp
+	<iostream>
+	"clsFecha.h"
+
+1788444141 source:c:\users\profesor\desktop\clase 06\main.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+	"menus.h"
+
+1788349201 c:\users\profesor\desktop\clase 06\menus.h
+	"clsAlumno.h"
+
+1788355367 source:c:\users\profesor\desktop\clase 06\menus.cpp
+	<iostream>
+	"menus.h"
+
+1788438511 source:c:\users\profesor\desktop\clase 06\clsdocente.cpp
+	<iostream>
+	<cstring>
+	"cargarCadena.h"
+	"clsDocente.h"
+
+1788438502 c:\users\profesor\desktop\clase 06\clsdocente.h
+	"clsDomicilio.h"
+	"clsFecha.h"
+
+1788438502 source:c:\users\profesor\desktop\clase 06\clspersona.cpp
+	<iostream>
+	<cstring>
+	"cargarCadena.h"
+	"clsPersona.h"
+
+1788440531 c:\users\profesor\desktop\clase 06\clspersona.h
+	"clsFecha.h"
+	"clsDomicilio.h"
+
