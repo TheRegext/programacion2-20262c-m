@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1789052117 source:c:\users\maxi_\desktop\2026 2c\introduccion archivos\main.cpp
+	<iostream>
+	"clsAlumno.h"
+
+1787753524 source:c:\users\maxi_\desktop\2026 2c\introduccion archivos\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1787613791 c:\users\maxi_\desktop\2026 2c\introduccion archivos\clsalumno.h
+
