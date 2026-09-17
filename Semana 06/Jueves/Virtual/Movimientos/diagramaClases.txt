@@ -1,0 +1,75 @@
+```mermaid
+classDiagram
+    class Fecha {
+        -int _dia
+        -int _mes
+        -int _anio
+        +Fecha()
+        +Fecha(d, m, a)
+        +getDia() int
+        +getMes() int
+        +getAnio() int
+        +setDia(dia)
+        +setMes(mes)
+        +setAnio(anio)
+    }
+
+    class FechaHora {
+        -int _hora
+        -int _minutos
+        +FechaHora()
+        +FechaHora(d, m, a, h, min)
+        +~FechaHora()
+        +getHora() int
+        +getMinutos() int
+        +setHora(hora)
+        +setMinutos(minutos)
+    }
+
+    class Movimiento {
+        -int _id
+        -float _monto
+        -FechaHora _fecha
+        -string _descripcion
+        -TipoMovimiento _tipo
+        +Movimiento()
+        +Movimiento(id, monto, fecha, descripcion, tipo)
+        +~Movimiento()
+        +getId() int
+        +getMonto() float
+        +getFecha() FechaHora
+        +getDescripcion() string
+        +getTipo() TipoMovimiento
+        +setId(id)
+        +setMonto(monto)
+        +setFecha(fecha)
+        +setDescripcion(descripcion)
+        +setTipo(tipo)
+    }
+
+    class TipoMovimiento {
+        <<enumeration>>
+        Ingreso
+        Egreso
+    }
+
+    class Menu {
+        -string* _vOpciones
+        -int _cantItems
+        +Menu(cantidadItems)
+        +setItem(indice, texto)
+        +dibujarMenu()
+        +obtenerRespuesta() int
+        +~Menu()
+    }
+
+    class MovimientosMenu {
+        +MovimientosMenu()
+        +run()
+    }
+
+    Fecha <|-- FechaHora
+    Menu <|-- MovimientosMenu
+    Movimiento *-- FechaHora : _fecha
+    Movimiento o-- TipoMovimiento : _tipo
+```

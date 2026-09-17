@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1789655942 source:e:\code\utn\movimientos\fecha.cpp
+	"Fecha.h"
+
+1789655850 e:\code\utn\movimientos\fecha.h
+
+1789656524 source:e:\code\utn\movimientos\menu.cpp
+	<iostream>
+	"Menu.h"
+
+1787878380 e:\code\utn\movimientos\menu.h
+	<string>
+
+1789656224 source:e:\code\utn\movimientos\fechahora.cpp
+	"FechaHora.h"
+
+1789659741 e:\code\utn\movimientos\fechahora.h
+	"Fecha.h"
+
+1789656358 source:e:\code\utn\movimientos\movimiento.cpp
+	"Movimiento.h"
+
+1789660353 e:\code\utn\movimientos\movimiento.h
+	<string>
+	"FechaHora.h"
+
+1789659725 source:e:\code\utn\movimientos\main.cpp
+	<iostream>
+	"MovimientosMenu.h"
+
+1789657241 e:\code\utn\movimientos\movimientosmenu.h
+	"Menu.h"
+	"MovimientosManager.h"
+
+1789659763 e:\code\utn\movimientos\movimientosmanager.h
+	"MovimientosArchivo.h"
+
+1789659749 e:\code\utn\movimientos\movimientosarchivo.h
+	<string>
+	"Movimiento.h"
+
+1789659192 source:e:\code\utn\movimientos\movimientosmanager.cpp
+	<iostream>
+	"Movimiento.h"
+	"MovimientosManager.h"
+
+1789657268 source:e:\code\utn\movimientos\movimientosmenu.cpp
+	<iostream>
+	"MovimientosMenu.h"
+
+1789659783 source:e:\code\utn\movimientos\movimientosarchivo.cpp
+	<iostream>
+	"MovimientosArchivo.h"
+
