@@ -4,17 +4,17 @@
 using namespace std;
 
 /**
-Crear un programa con un menú con las siguientes opciones:
-1-Agregar un registro al archivo.
-2-Listar los registros del archivo.
-EXTRA:
-Hacer una opción que reciba una posición y liste el registro de esa posición (el primer registro de mi archivo ocupa la posición 0).
+Modificar el menú principal para que tenga las siguientes opciones:
+1 - ALUMNOS
+2 - MATERIAS
+0 - SALIR
 
-TAREA:
-Agregar una opción al menú que me permita listar un alumno que tenga un legajo que se ingresa por teclado.
+Cada opción debe llamar a un submenú que permita agregar, listar todos y listar un registro en particular del archivo correspondiente.
 
-DIFICIL:
-Listar a todos los alumnos que tengan una fecha de nacimiento anterior a una fecha que se ingresa por teclado.
+Para ello deberán crear la clase Materia. Las materias tienen:
+- Número.
+- Nombre.
+- Cuatrimestre al que pertenecen.
 */
 
 void menuPrincipal();
@@ -43,7 +43,7 @@ void menuPrincipal(){
         system("cls");
         switch(opc){
             case 1:
-                //agregarAlumno();
+                agregarAlumno();
                 break;
             case 2:
                 listarAlumnos();
@@ -79,10 +79,22 @@ void listarAlumnos(){
 
 void agregarAlumno(){
     Alumno obj;
-    obj.Cargar();
+    int legajo;
+    cout<<"INGRESE EL LEGAJO: ";
+    cin>>legajo;
+    if(legajo <= 0){
+        cout<<"EL LEGAJO INGRESADO NO ES VALIDO"<<endl;
+        return;
+    }
+    ArchivoAlumnos arcAlumnos;
+    int pos = arcAlumnos.buscarRegistro(legajo);
+    if(pos >= 0){
+        cout<<"EL LEGAJO INGRESADO YA EXISTE EN EL ARCHIVO"<<endl;
+        return;
+    }
+    obj.Cargar(legajo);
     ///VALIDAR LOS DATOS
     ///if(datosValidos){
-    ArchivoAlumnos arcAlumnos;
     arcAlumnos.grabarRegistro(obj);
     ///}
 }

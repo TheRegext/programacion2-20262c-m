@@ -15,9 +15,13 @@ Alumno::Alumno(int l, const char *nA, int d, int dN, int mN, int aN, const char 
     strcpy(domicilio, dom);
 }
 
-void Alumno::Cargar(){
-    cout<<"INGRESE EL LEGAJO: ";
-    cin>>legajo;
+void Alumno::Cargar(int leg){
+    if(leg == -1){
+        cout<<"INGRESE EL LEGAJO: ";
+        cin>>legajo;
+    }else{
+        legajo = leg;
+    }
     cout<<"INGRESE EL NOMBRE Y APELLIDO: ";
     cin.ignore();
     cin.getline(nombreApellido, 50);

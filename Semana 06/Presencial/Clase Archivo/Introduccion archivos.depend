@@ -18,3 +18,24 @@
 1789647376 c:\users\maxi_\desktop\2026 2c\introduccion archivos\clsarchivoalumnos.h
 	"clsAlumno.h"
 
+1789655457 source:c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\clsalumno.cpp
+	<iostream>
+	<cstring>
+	"clsAlumno.h"
+
+1789655457 c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\clsalumno.h
+
+1789647376 source:c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\clsarchivoalumnos.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoAlumnos.h"
+
+1789647376 c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\clsarchivoalumnos.h
+	"clsAlumno.h"
+
+1789648161 source:c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\clsarchivomaterias.cpp
+
+1789655484 source:c:\users\maxi_\desktop\2026 2c\semana 06\presencial\clase archivo\main.cpp
+	<iostream>
+	"clsArchivoAlumnos.h"
+
