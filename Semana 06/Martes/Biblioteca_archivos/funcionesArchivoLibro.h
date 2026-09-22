@@ -1,0 +1,8 @@
+#ifndef FUNCIONESARCHIVOLIBRO_H_INCLUDED
+#define FUNCIONESARCHIVOLIBRO_H_INCLUDED
+
+bool agregarRegistroLibro();
+bool mostrarRegistrosLibro();
+
+
+#endif // FUNCIONESARCHIVOLIBRO_H_INCLUDED
