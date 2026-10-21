@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1792586849 source:c:\users\maxi_\desktop\2026 2c\polimorfismo vector\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<ctime>
+
