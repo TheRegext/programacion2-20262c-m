@@ -1,0 +1,120 @@
+Variables
+
+Simples, variables compuestas: vectores, matrices-> cualquier tipo de datos (integrados, o los propios)
+
+Vectores:
+
+int vInt[10]-> al declararlos, se pone la cantidad precisa de elementos que se necesita, y se usa una constante.
+
+Al usarlos se arranco desde 0 hasta la cantidad -1.
+
+vInt[0]-> primera posición
+vInt[9]->última posición
+
+Funciones
+- funciones globales (fuera de las clases)
+- métodos (funciones de las clases)
+
+objeto.metodo()->llamar a un método desde fuera de la clase
+
+Sobrecarga de funciones-> funciones distintas con el mismo nombre. Se diferencian por los parámetros que reciben.
+
+Valores por defecto (u omisión) void miFuncion(int a=0,int b=8)
+
+miFuncion();///en esta llamada se usan los valores por defecto
+miFuncion(1,1);/// en esta otra los que se envían
+
+Parámetros: 
+por valor-> se hace una copia local a la función de lo recibido void miFuncion(int a,int b)
+por referencia-> se usa la misma/s variable/s ya que se recibe lo enviado en una referencia 
+void miFuncion(int &a,int &b)
+Tanto para las referencias como para los pasos por valor se puede hacer que los parámetros sean const
+por dirección-> se envía la dirección de una variable, o la dirección de inicio de un vector o matriz
+
+void miFuncion(int *a,int *b) se recibe/n la/s dirección/es en un puntero
+void miFuncion(int a[],int b[])
+void miFuncion(int a[3][5],int *b)
+
+
+Registro: conjunto de valores que necesito utilizar de manera conjunta para definir una instancia de una cosa.
+
+Clases: molde donde se definen las propiedades y el comportamiento que tendrán los objetos de esa clase
+Cualquier cosa se puede modelar con una clase. Algo del mundo real o virtual, componentes de datos de un programa o cualquier otro componente del programa: archivo, menúes, pantallas, botones, etc.
+
+
+Privada: se definen las propiedades (variables de la clase)
+Pública: los métodos o funciones de la clase
+
+Encapsulamiento: preserva los datos contenidos en los objetos. Las propiedades sólo son accesibles mediante métodos de la clase diseñados para eso. 
+
+Objeto: variable o instancia de una clase.
+
+Métodos de una clase:
+sets(), gets()-> para trabajar con los valores de las propiedades
+
+Constructor/es: métodos que tienen el mismo nombre de la clase y que se ejecutan al momento del nacimiento del objeto. No devuelve valor, puede aceptar parámetros. Tiene el mismo nombre que la clase
+
+Destructor: 
+* tiene el mismo nombre de la clase, pero con el carácter ~ adelante
+* no devuelve valor ni acepta parámetros
+* se ejecuta en el momento que el objeto cae fuera de su ámbito.
+* se usa cuando se necesita que se ejecute un código cuando el objeto muere. Típico: objetos dinámicos
+
+Sobrecarga de operadores: se le da nueva funcionalidad a los operadores del lenguaje
+
+Mecanismo para el diseño de clases:
+Herencia: a partir de una clase (base) generar nuevas clases (derivadas). Las clases derivadas heredan todo lo que está definido en la clase base. clase derivada->es->clase base
+
+protected->permitía que las clases derivadas accedan a las propiedades definidas en la base. Se mantiene la privacidad.
+
+Composición: cuando un objeto de una clase tiene como propiedad un objeto de OTRA CLASE. La clase tiene objeto de otra clase (Alumno tiene fecha de nacimiento).
+
+
+Archivos de datos, con un tipo de dato definido (registro) mediante un molde (clase) con las siguientes características:
+- almacenan una sola cosa
+- registros de longitud idéntica (fija). Conjunto de campos definidos
+- no se repiten los registros. Al menos un valor identifica de manera unívoca cada registro.
+
+Funciones de archivo de C
+FILE *-> que permite conectar nuestro programa con el archivo físico
+fopen()->abrir y crear
+fwrite()->para escribir registros en el archivo (memoria a disco)
+fread()->para leer registros del archivo (disco a la memoria)
+fclose()->para cerrar el archivo
+
+fseek()->ubicarnos en posiciones específicas de un archivo
+ftell()-> que informa la cantidad de bytes que hay desde el inicio del archivo a la posición actual
+
+Operaciones sobre los archivos
+Alta->agregar registros
+Baja->borrar registros (Lógica, física)
+Modificación-> cambia valores de los registros
+Listados->presentación del contenido de un archivo de distintas maneras
+
+
+Asignación dinámica de memoria:
+Construir variables de manera dinámica. No hace falta declararlas al inicio.
+
+int *pInt;
+pInt=new int[CANTIDAD_ELEMENTOS];
+Chequeado de la asignación
+if(pInt==nullptr)
+delete []pInt;
+
+Asignación de memoria: pido estrictamente lo que necesito.
+Puedo construir variables de cualquier tipo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
